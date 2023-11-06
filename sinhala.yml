@@ -1,0 +1,9 @@
+name: continuous-integration
+ on:
+   push:
+     branches:
+       - main
+   pull_request:
+   workflow_call:
+
+ ...your tests steps here
